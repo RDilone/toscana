@@ -1,0 +1,453 @@
+.s0 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.s0 .f1, .s0 .f2 {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  margin: 20px 10px;
+  margin-top: 0px;
+}
+
+.s0 .f1 img, .s0 .f2 img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.s1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.s1 .texto {
+  padding: 25px;
+  background: #F7B32D;
+  color: #000000;
+  margin: 20px 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.s1 .texto .st1, .s1 .texto p, .s1 .texto h2 {
+  background: none;
+}
+
+.s1 .texto p {
+  line-height: 30px;
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', cursive;
+}
+
+.s1 .texto h2 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Handlee', cursive;
+}
+
+.s1 .imagen {
+  margin: 20px 10px;
+}
+
+.s1 .imagen img {
+  width: 100%;
+}
+
+.s2 {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+}
+
+.s2 .snk {
+  margin: 20px 10px;
+  overflow: hidden;
+  background-color: #000;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s2 .snk .texto {
+  width: 300px;
+  height: 250px;
+  background: none;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+.s2 .snk .texto h3, .s2 .snk .texto p {
+  background: none;
+  opacity: 0;
+}
+
+.s2 .snk .texto h3 {
+  font-size: 27px;
+  font-family: 'Handlee', cursive;
+}
+
+.s2 .snk .texto p {
+  font-size: 18px;
+  font-family: 'Open Sans', cursive;
+}
+
+.s2 .snk .texto:hover h3, .s2 .snk .texto:hover p {
+  opacity: 0;
+}
+
+.s2 .snk img {
+  width: 100%;
+}
+
+.s2 .snk img:hover {
+  animation-name: snack;
+  animation-duration: 0.5s;
+  opacity: 0.2;
+}
+
+.s2 .snk:hover h3, .s2 .snk:hover p {
+  opacity: 1;
+}
+
+.s3 {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.s3 h3, .s3 p {
+  opacity: 0;
+  background: none;
+}
+
+.s3 h3 {
+  font-family: 'Handlee', cursive;
+  font-size: 27px;
+}
+
+.s3 p {
+  font-family: 'Open Sans', cursive;
+  font-size: 18px;
+}
+
+.s3 .carousel .carousel-inner {
+  text-align: center;
+}
+
+.s3 .carousel .carousel-inner .item {
+  margin: 0px 10px;
+  background-color: #000000;
+}
+
+.s3 .carousel .carousel-inner .item .carousel-caption {
+  background: none;
+}
+
+.s3 .carousel .carousel-inner .item .carousel-caption:hover {
+  opacity: 0;
+}
+
+.s3 .carousel .carousel-inner .item img {
+  width: 100%;
+}
+
+.s3 .carousel .carousel-inner .item img:hover {
+  animation-name: snack;
+  animation-duration: 0.5s;
+  opacity: 0.2;
+}
+
+.s3 .carousel .carousel-inner .item:hover h3, .s3 .carousel .carousel-inner .item:hover p {
+  animation-name: texta;
+  animation-duration: 0.5s;
+  opacity: 1;
+}
+
+.s3 .carousel .item > img {
+  display: inline-block;
+}
+
+.s3 .left {
+  background: none;
+}
+
+.s3 .left .glyphicon-chevron-left {
+  color: #F7B32D;
+  background: none;
+}
+
+.s3 .right {
+  background: none;
+}
+
+.s3 .right .glyphicon-chevron-right {
+  color: #F7B32D;
+  background: none;
+}
+
+.s4 {
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.s4 img:hover {
+  animation-name: snack;
+  animation-duration: 0.5s;
+  opacity: 0.2;
+}
+
+.s4 .fs1, .s4 .fs2 {
+  margin: 20px 10px;
+  background-color: #000000;
+}
+
+.s4 .fs1 .texto, .s4 .fs2 .texto {
+  position: absolute;
+  background: none;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.s4 .fs1 .texto h3, .s4 .fs1 .texto p, .s4 .fs2 .texto h3, .s4 .fs2 .texto p {
+  color: #ffffff;
+  opacity: 0;
+  background: none;
+}
+
+.s4 .fs1 .texto h3, .s4 .fs2 .texto h3 {
+  font-family: 'Handlee', cursive;
+  font-size: 27px;
+}
+
+.s4 .fs1 .texto p, .s4 .fs2 .texto p {
+  font-family: 'Open Sans', cursive;
+  font-size: 18px;
+}
+
+.s4 .fs1 .texto:hover h3, .s4 .fs1 .texto:hover p, .s4 .fs2 .texto:hover h3, .s4 .fs2 .texto:hover p {
+  opacity: 0;
+}
+
+.s4 .fs2 img {
+  width: 135%;
+}
+
+.s4 .fs1 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.s4 .fs1 img {
+  margin-left: -120px;
+  width: 800px;
+  height: 600px;
+}
+
+.s4 .fs1:hover h3, .s4 .fs1:hover p, .s4 .fs2:hover h3, .s4 .fs2:hover p {
+  opacity: 1;
+}
+
+.s5 {
+  width: 100%;
+  height: 308px;
+  font-family: 'Handlee', cursive;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.s5 .map {
+  margin: 20px 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.s5 .contact {
+  margin: 20px 10px;
+  background: #28544B;
+}
+
+.s5 .contact h1, .s5 .contact h2, .s5 .contact p {
+  background: none;
+  color: #ffffff;
+}
+
+.s5 .contact p {
+  line-height: 30px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.s5 .contact .form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: none;
+}
+
+.s5 .contact .form input[type="email"], .s5 .contact .form button[type="submit"] {
+  margin: 10px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.s5 .contact .form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+}
+
+.s5 .contact .form button[type="submit"] {
+  padding: 10px;
+  width: 80px;
+  background: #C5F0A4;
+  font-weight: bold;
+}
+
+.s5 .contact .form button[type="submit"] i {
+  background: none;
+}
+
+header .menu {
+  display: block;
+  background: #F2F2F0;
+  width: 100%;
+  height: 250px;
+  border: none;
+  padding-top: 10px;
+}
+
+header .marca {
+  display: inline-block;
+  padding-left: 60px;
+}
+
+header .marca .logo {
+  display: block;
+  margin: auto;
+}
+
+header .marca .texto {
+  background: none;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  display: block;
+}
+
+header .marca .sp {
+  display: block;
+}
+
+header .navbar-header {
+  display: inline-block;
+  float: right;
+}
+
+header .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+header .navbar-nav .option {
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+  color: #000000 !important;
+  font-size: 18px;
+}
+
+header .navbar-nav .option:hover {
+  color: #606470 !important;
+}
+
+.pie {
+  width: 100%;
+  height: 60px;
+  background: #FFDD7E;
+  margin: 0px 10px;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pie h4 {
+  background: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+@keyframes snack {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes texta {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar-collapse.collapse {
+  display: none !important;
+}
+
+.navbar-nav {
+  float: none !important;
+}
+
+.navbar-nav > li {
+  float: none;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.navbar-default {
+  margin: 0px !important;
+}
+
+* {
+  background: #F2F2F0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=estilos.css.map */
